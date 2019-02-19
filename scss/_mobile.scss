@@ -63,9 +63,16 @@
   .projects {
     grid-template-columns: repeat(2, 1fr);
   }
+  .menu-btn {
+    right: 10px;
+  }
 }
 
 @include mediaSm {
+  main {
+    display: grid;
+    justify-content: center;
+  }
   h1,
   h2,
   h3 {
@@ -88,6 +95,6 @@
   }
   .boxes div {
     padding: 0.2rem 0.2rem;
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 }
