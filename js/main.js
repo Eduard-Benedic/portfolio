@@ -34,3 +34,14 @@ function toggleMenu() {
     showMenu = false;
   }
 }
+
+// Create the modal
+
+const viewResume = document.querySelector(".viewResume");
+
+viewResume.addEventListener("click", displayResume);
+
+function displayResume() {
+  const tableDiv = document.querySelector(".table-container");
+  tableDiv.style.opacity = "1";
+}
