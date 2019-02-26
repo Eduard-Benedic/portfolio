@@ -276,11 +276,23 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); }
+  div p {
+    margin: 0.5rem 1.2rem;
+    text-align: center; }
+  div h3 {
+    margin: 1.3rem 0; } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  .about-info {
+    grid-template-areas: "bioimage bio bio" "job1 job2 job2" "job3 job3 job3";
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center; }
+    .about-info div p {
+      margin: 0.5rem 1.2rem;
+      text-align: center; } }
 
 @media screen and (max-width: 768px) {
   main {
