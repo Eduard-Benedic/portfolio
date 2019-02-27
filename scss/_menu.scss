@@ -42,7 +42,7 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.8;
+  opacity: 0.9;
   visibility: hidden;
 
   &.show {
@@ -85,14 +85,14 @@
     &.show {
       transform: translate3d(0, 0, 0);
     }
-
     .portrait {
-      width: 220px;
-      height: 220px;
-      background: url("../images/image.jpg");
+      width: 200px;
+      height: 200px;
+      background: url("../images/iulia.jpg");
+      background-position: center;
       border-radius: 50%;
-      border: solid 2px $primary-color;
-      box-shadow: 0 0 8px 2px;
+      border: solid 2px #000;
+      box-shadow: 0 0 8px 2px black;
     }
   }
   .nav-item {
