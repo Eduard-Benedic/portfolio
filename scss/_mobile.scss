@@ -65,7 +65,9 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url("../images/profile-small.jpg");
+      background: url("../images/menu-icon.jpg");
+      background-position: center;
+      background-size: cover;
       width: 150px;
       height: 150px;
     }
